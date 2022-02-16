@@ -10,10 +10,10 @@ public class AuthorDTOBuilder {
     private final Integer id = 1;
 
     @Builder.Default
-    private final String name = "Valdir Cezar";
+    private final String name = "Luiz Felipe ";
 
     @Builder.Default
-    private final Integer age = 27;
+    private final Integer age = 25;
 
     public AuthorDTO buildAuthorDTO() {
         return new AuthorDTO(id, name, age);
